@@ -1,0 +1,18 @@
+{
+  "db": {
+    "name": "db",
+    "connector": "memory"
+  },
+  "book-db": {
+    "host": "localhost",
+    "port": 27017,
+    "database": "book-db",
+    "password": "",
+    "name": "book-db",
+    "user": "",
+    "url": "mongodb://localhost:27017/book-db",
+    "connector": "loopback-connector-mongodb",
+    "debug":true,
+    "allowExtendedOperators": true
+  }
+}
